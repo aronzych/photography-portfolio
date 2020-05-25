@@ -16,6 +16,7 @@ body {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 .wrapper {
@@ -136,8 +137,8 @@ img {
 
 .gallery__img {
   flex-basis: 100%;
-  width: 0px; /* WHYYYYYYYYYY */
   height: auto;
+  overflow: hidden;
 }
 
 /* CARDS */
@@ -155,8 +156,8 @@ img {
 
 .cards__img {
   flex-basis: 100%;
-  width: 0px; /* WHYYYYYYYYYY */
   height: auto;
+  overflow: hidden;
 }
 
 .cards__txt {
@@ -260,7 +261,6 @@ img {
 
   .gallery__img {
     flex-basis: 50%;
-    width: 0px;
     height: auto;
   }
 
